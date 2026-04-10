@@ -1,0 +1,8 @@
+[package]
+name = "cuda-persistence"
+version = "0.1.0"
+edition = "2021"
+description = "Persistence layer — checkpointing, state serialization, recovery, and durable state management for agents"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
